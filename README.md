@@ -15,10 +15,10 @@ npm install --save zoinodemodules
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'zoinodemodules'
-import 'zoinodemodules/dist/index.css'
+import {ZTextBox} from 'zoinodemodules'
+import 'index.css'
 
-class {ZTextBox} extends Component {
+class MyComponent extends Component {
   render() {
     return <ZTextBox text="Save" />
   }
