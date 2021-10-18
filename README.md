@@ -18,9 +18,9 @@ import React, { Component } from 'react'
 import MyComponent from 'zoinodemodules'
 import 'zoinodemodules/dist/index.css'
 
-class Example extends Component {
+class {ZTextBox} extends Component {
   render() {
-    return <MyComponent />
+    return <ZTextBox text="Save" />
   }
 }
 ```
