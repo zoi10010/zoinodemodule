@@ -7,3 +7,13 @@
   font-size: 2em;
   text-align: center;
 }
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+
+.button:hover{
+  cursor: pointer;
+}
