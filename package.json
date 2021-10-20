@@ -1,6 +1,6 @@
 {
   "name": "zoinodemodules",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "npm is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs.",
   "author": "zoi10010",
   "license": "MIT",
@@ -51,6 +51,7 @@
     "dist"
   ],
   "dependencies": {
+    "enzyme": "^3.11.0",
     "node-sass": "^4.14.1",
     "web-animation-club": "^0.6.0"
   }

@@ -1,40 +1,40 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { AwesomeButton, AwesomeButtonProgress } from '../index';
+import { ZButton, ZButtonProgress } from '../index';
 
 describe('Examining the syntax of Jest tests', () => {
   it('renders without crashing', () => {
-    shallow(<AwesomeButton />);
+    shallow(<ZButton />);
   });
 
   it('renders without crashing', () => {
-    shallow(<AwesomeButtonProgress />);
+    shallow(<ZButtonProgress />);
   });
 
   it('Should render a simple primary button', () => {
-    const component = shallow(<AwesomeButton>Button</AwesomeButton>);
+    const component = shallow(<ZButton>Button</ZButton>);
     expect(component).toMatchSnapshot();
   });
 
   it('Should render a simple secondary button', () => {
-    const component = shallow(<AwesomeButton type="secondary">Button</AwesomeButton>);
+    const component = shallow(<ZButton type="secondary">Button</ZButton>);
     expect(component).toMatchSnapshot();
   });
 
   it('Should render a button without moveEvents', () => {
-    const component = shallow(<AwesomeButton moveEvents={false}>Button</AwesomeButton>);
+    const component = shallow(<ZButton moveEvents={false}>Button</ZButton>);
     expect(component).toMatchSnapshot();
   });
 
   it('Should render a button with a progress bar', () => {
     const component = shallow(
-      <AwesomeButtonProgress
+      <ZButtonProgress
         action={(element, next) => {
           next();
         }}
       >
         Button
-      </AwesomeButtonProgress>);
+      </ZButtonProgress>);
     expect(component).toMatchSnapshot();
   });
 });
