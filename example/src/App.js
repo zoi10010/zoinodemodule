@@ -10,7 +10,7 @@ const App = () => {
       size="small"
       type="primary"
     >
-      Large
+      Large Button
     </ZButton>
 
     <ZButtonProgress
